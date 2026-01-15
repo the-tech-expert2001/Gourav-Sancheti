@@ -9,7 +9,7 @@ const projects = [
     title: "Cosmetic Website",
     description:
       "Professional Shopify store for a cosmetic brand, built with a user-friendly design and smooth checkout flow.",
-    image: "/portfolio/ammoha.webp",
+    image: "/Portfolio/ammoha.webp",
     tags: ["Shopify", "E-commerce", "Beauty Store"],
   },
   {
@@ -18,7 +18,7 @@ const projects = [
     title: "Restart Digital Services",
     description:
       "Modern WordPress website designed for an IT and digital marketing agency to showcase services and drive leads.",
-    image: "/portfolio/restartdigitalservices.webp",
+    image: "/Portfolio/restartdigitalservices.webp",
     tags: ["WordPress", "Marketing", "Custom Plugin"],
   },
   {
@@ -27,7 +27,7 @@ const projects = [
     title: "Firststep Realty Solution",
     description:
       "Realty solutions website providing residential and commercial property services.",
-    image: "/portfolio/firstysteprealtysolution.webp",
+    image: "/Portfolio/firstysteprealtysolution.webp",
     tags: ["WordPress", "Booking", "Custom Plugin"],
   },
   {
@@ -36,7 +36,7 @@ const projects = [
     title: "Littel Great",
     description:
       "Modern furniture website for a sofa and chair business, designed to showcase products effectively.",
-    image: "/portfolio/littlegreat.webp",
+    image: "/Portfolio/littlegreat.webp",
     tags: ["Shopify", "E-commerce", "Furniture"],
   },
   {
@@ -45,7 +45,7 @@ const projects = [
     title: "Pixalytix Digital Solutions",
     description:
       "Modern WordPress website designed for an IT and digital marketing agency to showcase services and drive leads",
-    image: "/portfolio/pixalytix.webp",
+    image: "/Portfolio/pixalytix.webp",
     tags: ["WordPress", "Marketing", "Custom Plugin"],
   },
   {
@@ -54,7 +54,7 @@ const projects = [
     title: "Fire Bucket Event",
     description:
       "Event website designed for promoting and managing events effectively",
-    image: "/portfolio/firebucketevent.webp",
+    image: "/Portfolio/firebucketevent.webp",
     tags: ["WordPress", "Booking", "Custom Plugin"],
   },
   {
@@ -62,7 +62,7 @@ const projects = [
     category: "WooCommerce",
     title: "Artistry Glo",
     description: "E-commerce website for beauty and cosmetic products.",
-    image: "/portfolio/artistryglo.webp",
+    image: "/Portfolio/artistryglo.webp",
     tags: ["WordPress", "WooCommerce"],
   },
   {
@@ -71,7 +71,7 @@ const projects = [
     title: "Maryyost Travel",
     description:
       "WordPress site with online ordering, table reservations, and menu management.",
-    image: "/portfolio/maryyosttravel.webp",
+    image: "/Portfolio/maryyosttravel.webp",
     tags: ["WordPress", "Booking"],
   },
   {
@@ -80,7 +80,7 @@ const projects = [
     title: "Damtrucks",
     description:
       "Dam truck advertisement website built to highlight services and attract business inquiries.",
-    image: "/portfolio/damtrucks.webp",
+    image: "/Portfolio/damtrucks.webp",
     tags: ["WordPress", "Booking", "Marketing"],
   },
   {
@@ -89,7 +89,7 @@ const projects = [
     title: "Egress Windows Experts",
     description:
       "Service-based website designed for window repair solutions with a clean and user-friendly layout.",
-    image: "/portfolio/egresswindowstoronto-ca.webp",
+    image: "/Portfolio/egresswindowstoronto-ca.webp",
     tags: ["WordPress", "Window Repair", "Service Website"],
   },
   {
@@ -98,7 +98,7 @@ const projects = [
     title: "Solar Force Systems",
     description:
       "Website built for a solar system company to showcase renewable energy solutions effectively",
-    image: "/portfolio/solarforce-nl.webp",
+    image: "/Portfolio/solarforce-nl.webp",
     tags: ["WordPress", "Booking"],
   },
   {
@@ -107,7 +107,7 @@ const projects = [
     title: "The Pips Room",
     description:
       "Modern trading website built to showcase trading solutions and engage users effectively.",
-    image: "/portfolio/thepipsroom.webp",
+    image: "/Portfolio/thepipsroom.webp",
     tags: ["WordPress", "Booking", "Membership"],
   },
   {
@@ -116,7 +116,7 @@ const projects = [
     title: "Spectrum Getaways",
     description:
       "Travel website designed to showcase trips and destinations with a clean and engaging layout.",
-    image: "/portfolio/spectrumgetaways.webp",
+    image: "/Portfolio/spectrumgetaways.webp",
     tags: ["WordPress", "Booking"],
   },
   {
@@ -124,7 +124,7 @@ const projects = [
     category: "WordPress",
     title: "Restaurant & Booking Platform",
     description: "Website for a web development and marketing company.",
-    image: "/portfolio/peakperformancestud-io.webp",
+    image: "/Portfolio/peakperformancestud-io.webp",
     tags: ["WordPress", "Marketing", "Agency"],
   },
   {
@@ -133,7 +133,7 @@ const projects = [
     title: "American Wrap Company",
     description:
       "Modern website built for car wrap services with a clean and visual-focused layout.",
-    image: "/portfolio/americanwrapco.webp",
+    image: "/Portfolio/americanwrapco.webp",
     tags: ["WordPress", "Car Wrap"],
   },
   {
@@ -142,7 +142,7 @@ const projects = [
     title: "Harris Nevada Law",
     description:
       "Modern website built for legal law services with a clean and visual-focused layout.",
-    image: "/portfolio/harrisnevadalaw.webp",
+    image: "/Portfolio/harrisnevadalaw.webp",
     tags: ["WordPress", "Nevada Law"],
   },
   {
@@ -151,7 +151,7 @@ const projects = [
     title: "Leaping Lynx",
     description:
       "Designed a premium supplement brand website emphasizing wellness, product quality, trust, and a clean user experience.",
-    image: "/portfolio/leapinglynx.webp",
+    image: "/Portfolio/leapinglynx.webp",
     tags: ["WordPress", "Supplements"],
   },
   {
@@ -160,7 +160,7 @@ const projects = [
     title: "Summit Window Tinting",
     description:
       "Professional car tinting website showcasing quality service, protection, style, and customer trust.",
-    image: "/portfolio/summitwindowtinting.webp",
+    image: "/Portfolio/summitwindowtinting.webp",
     tags: ["WordPress", "Tinting Experts"],
   },
   {
@@ -169,7 +169,7 @@ const projects = [
     title: "Drummond Law Firm",
     description:
       "Modern website built for legal law services with a clean and visual-focused layout.",
-    image: "/portfolio/drummondfirm.png",
+    image: "/Portfolio/drummondfirm.png",
     tags: ["WordPress", "Law Firm"],
   },
   {
@@ -178,7 +178,7 @@ const projects = [
     title: "Premier",
     description:
       "Custom-designed clothing store website showcasing unique fashion, premium fabrics, and a seamless shopping experience.",
-    image: "/portfolio/premierprintco.webp",
+    image: "/Portfolio/premierprintco.webp",
     tags: ["WordPress", "Custom Product Design"],
   },
   {
@@ -187,7 +187,7 @@ const projects = [
     title: "Auto Paint Guard",
     description:
       "Professional car services website highlighting tinting, wrapping, detailing, and premium vehicle care solutions.",
-    image: "/portfolio/autopaintguard.webp",
+    image: "/Portfolio/autopaintguard.webp",
     tags: ["WordPress", "Car Wrap"],
   },
   {
@@ -196,7 +196,7 @@ const projects = [
     title: "Olympiaridgeestates",
     description:
       "Modern real estate website showcasing property listings, trusted services, and a seamless user experience.",
-    image: "/portfolio/olympiaridgeestates.webp",
+    image: "/Portfolio/olympiaridgeestates.webp",
     tags: ["WordPress", "Real State"],
   },
   {
@@ -205,7 +205,7 @@ const projects = [
     title: "The Dogg Father.",
     description:
       "Pet product store website showcasing quality supplies, pet care essentials, and a friendly shopping experience.",
-    image: "/portfolio/thedoggfather-au.webp",
+    image: "/Portfolio/thedoggfather-au.webp",
     tags: ["WordPress", "Pet Store"],
   },
   {
@@ -214,7 +214,7 @@ const projects = [
     title: "American Wrap Company",
     description:
       "Modern website built for car wrap services with a clean and visual-focused layout.",
-    image: "/portfolio/americanwrapco.webp",
+    image: "/Portfolio/americanwrapco.webp",
     tags: ["WordPress", "Car Wrap"],
   },
   {
@@ -223,7 +223,7 @@ const projects = [
     title: "Elite Window Tint",
     description:
       "Modern website built for car wrap services with a clean and visual-focused layout.",
-    image: "/portfolio/elitewindowtint.webp",
+    image: "/Portfolio/elitewindowtint.webp",
     tags: ["WordPress", "Car Services"],
   },
    {
@@ -232,7 +232,7 @@ const projects = [
     title: "Yogat Sea",
     description:
       "Yoga course website promoting mindful practices, guided sessions, and a calm, user-friendly learning experience.",
-    image: "/portfolio/yogatsea.webp",
+    image: "/Portfolio/yogatsea.webp",
     tags: ["WordPress", "Yoga At Sea", "Booking"],
   },
    {
@@ -241,7 +241,7 @@ const projects = [
     title: "LV Home Services",
     description:
       "home services website offering reliable solutions for maintenance, repairs, and everyday household needs.",
-    image: "/portfolio/lvhomeservice.webp",
+    image: "/Portfolio/lvhomeservice.webp",
     tags: ["WordPress", "Home Services"],
   },
    {
@@ -250,7 +250,7 @@ const projects = [
     title: "Midwest Fertility Center",
     description:
       "Developed a compassionate healthcare website highlighting trusted fertility services helping Chicago couples grow families since 1979.",
-    image: "/portfolio/mfcfamily.webp",
+    image: "/Portfolio/mfcfamily.webp",
     tags: ["WordPress", "Car Wrap"],
   },
    {
@@ -259,7 +259,7 @@ const projects = [
     title: "Dammi Media",
     description:
       "Media book website designed for podcast tours, interviews, and seamless promotional scheduling.",
-    image: "/portfolio/dammimedia.webp",
+    image: "/Portfolio/dammimedia.webp",
     tags: ["WordPress", "Car Wrap"],
   },
    {
@@ -268,7 +268,7 @@ const projects = [
     title: "Belle kr",
     description:
       "E-commerce website for BELLE KR, highlighting durable, safe, sustainable Mylar bags.",
-    image: "/portfolio/belle-kr.webp",
+    image: "/Portfolio/belle-kr.webp",
     tags: ["WordPress", "food storage Solutions", "Ecommerce"],
   },
    {
@@ -277,7 +277,7 @@ const projects = [
     title: "pet lovers stre",
     description:
       "Pet store website showcasing quality products, pet care essentials, and easy shopping.",
-    image: "/portfolio/pet-lovers-stre-.webp",
+    image: "/Portfolio/pet-lovers-stre-.webp",
     tags: ["Shopify", "Pet Store"],
   },
    {
@@ -286,7 +286,7 @@ const projects = [
     title: "K Beaut By Design",
     description:
       "Beauty store website highlighting premium products, skincare essentials, and seamless shopping experience.",
-    image: "/portfolio/k-beautybydesign.webp",
+    image: "/Portfolio/k-beautybydesign.webp",
     tags: ["Shopify", "Beauty Store"],
   },
    {
@@ -295,7 +295,7 @@ const projects = [
     title: "Grace Bey Variety Store",
     description:
       "Beauty store website highlighting premium products, skincare essentials, and seamless shopping experience.",
-    image: "/portfolio/gracebey.webp",
+    image: "/Portfolio/gracebey.webp",
     tags: ["Shopify", "Beauty Store"],
   },
    {
@@ -304,7 +304,7 @@ const projects = [
     title: "Blessed Bee Botanicals",
     description:
       "Beauty store website highlighting premium products, skincare essentials, and seamless shopping experience.",
-    image: "/portfolio/blessedbeebotanicals.webp",
+    image: "/Portfolio/blessedbeebotanicals.webp",
     tags: ["Shopify", "Beauty Store"],
   },
    {
@@ -313,7 +313,7 @@ const projects = [
     title: "E S M skin",
     description:
       "Beauty store website highlighting premium products, skincare essentials, and seamless shopping experience.",
-    image: "/portfolio/esmskin.webp",
+    image: "/Portfolio/esmskin.webp",
     tags: ["Shopify", "Beauty Store"],
   },
    {
@@ -322,7 +322,7 @@ const projects = [
     title: "Crown for the beauties",
     description:
       "Beauty store website highlighting premium products, skincare essentials, and seamless shopping experience.",
-    image: "/portfolio/crown-for-the-beauties.webp",
+    image: "/Portfolio/crown-for-the-beauties.webp",
     tags: ["Shopify", "Beauty Store"],
   },
    {
@@ -331,7 +331,7 @@ const projects = [
     title: "Beauty807",
     description:
       "Beauty store website highlighting premium products, skincare essentials, and seamless shopping experience.",
-    image: "/portfolio/beauty807.webp",
+    image: "/Portfolio/beauty807.webp",
     tags: ["Shopify", "Beauty Store"],
   },
    {
@@ -340,7 +340,7 @@ const projects = [
     title: "MUNCHKIN-LIL",
     description:
       "Baby store website featuring quality products, essentials, and a safe shopping experience.",
-    image: "/portfolio/munchkin-lil.webp",
+    image: "/Portfolio/munchkin-lil.webp",
     tags: ["Shopify", "BabyStore"],
   },
    {
@@ -349,7 +349,7 @@ const projects = [
     title: "RAISE WELL",
     description:
       "Baby store website featuring quality products, essentials, and a safe shopping experience.",
-    image: "/portfolio/raise-well.webp",
+    image: "/Portfolio/raise-well.webp",
     tags: ["Shopify", "Beauty Store"],
   },
    {
@@ -358,7 +358,7 @@ const projects = [
     title: "Baby Cot Mobile",
     description:
       "Baby store website featuring quality products, essentials, and a safe shopping experience.",
-    image: "/portfolio/babycotmobiles-au.webp",
+    image: "/Portfolio/babycotmobiles-au.webp",
     tags: ["Shopify", "Baby Store"],
   },
    {
@@ -367,7 +367,7 @@ const projects = [
     title: "Beauty807",
     description:
       "Beauty store website highlighting premium products, skincare essentials, and seamless shopping experience.",
-    image: "/portfolio/beauty807.webp",
+    image: "/Portfolio/beauty807.webp",
     tags: ["Shopify", "Beauty Store"],
   },
    {
@@ -376,7 +376,7 @@ const projects = [
     title: "Beauty807",
     description:
       "Beauty store website highlighting premium products, skincare essentials, and seamless shopping experience.",
-    image: "/portfolio/beauty807.webp",
+    image: "/Portfolio/beauty807.webp",
     tags: ["Shopify", "Beauty Store"],
   },
 
