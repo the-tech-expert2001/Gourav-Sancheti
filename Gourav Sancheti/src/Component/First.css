@@ -1,0 +1,127 @@
+.hero {
+    min-height: 100vh;
+    background: radial-gradient(circle at center, #0b1220, #020617);
+    color: #cbd5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  /* Badge */
+  .badgee {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  
+  .dott {
+    width: 8px;
+    height: 8px;
+    background: #22c55e;
+    border-radius: 50%;
+  }
+  
+  /* Heading */
+  .hero-title {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  
+  .gradient-text {
+    display: inline-block;
+    background: linear-gradient(90deg, #10a2e8, #8b5cf6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+  
+  /* Subtitle */
+  .hero-subtitle {
+    font-size: 18px;
+    opacity: 0.9;
+    margin-bottom: 15px;
+  }
+  
+  /* Stats */
+  .hero-stats {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .hero-stats strong {
+    color: #38bdf8;
+  }
+  
+  .divider {
+    opacity: 0.4;
+  }
+  
+  /* Buttons */
+  .hero-buttons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 35px;
+  }
+  
+  .btn-primary {
+    background: linear-gradient(90deg, #10a2e8, #8b5cf6);
+    border: none;
+    padding: 12px 26px;
+    border-radius: 999px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .btn-outline {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 12px 26px;
+    border-radius: 999px;
+    color: #cbd5f5;
+    cursor: pointer;
+  }
+  
+  /* Skills */
+  .hero-skills {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .hero-skills span {
+    padding: 8px 14px;
+    border-radius: 999px;
+    font-size: 13px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 36px;
+    }
+  }
+  
+  .hero-skills span:hover {
+    border: 1px solid #2c92eb75;
+}

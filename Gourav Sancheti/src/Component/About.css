@@ -1,0 +1,227 @@
+.about {
+    background: radial-gradient(circle at center, #0b1220, #020617);
+    padding: 100px 20px;
+    color: #cbd5f5;
+  }
+  
+  .about-container {
+    max-width: 1300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 60px;
+    align-items: center;
+  }
+  
+  /* LEFT CARD */
+  .about-card {
+    position: relative;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    padding: 50px 30px;
+    text-align: center;
+    backdrop-filter: blur(12px);
+  }
+  
+  .avatar {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #10a2e8, #8b5cf6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .stat-box:hover {
+    background: linear-gradient(135deg, #10a2e83b, #8b5cf657);
+}
+  
+  .about-card h3 {
+    margin-bottom: 5px;
+  }
+  
+  .about-card p {
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  
+  /* RIGHT CONTENT */
+  .about-tag {
+    color: #38bdf8;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  
+  .about-title {
+    font-size: 42px;
+    margin: 15px 0 25px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+  
+  .gradient-text {
+    background: linear-gradient(90deg, #10a2e8, #8b5cf6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+  
+  .about-content p {
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    opacity: 0.9;
+  }
+  
+  .about-content strong {
+    color: #ffffff;
+  }
+  
+  /* STATS */
+  .about-stats {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+  
+  .stat-box {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 14px;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  
+  .stat-box h3 {
+    color: #38bdf8;
+    font-size: 24px;
+  }
+  
+  .stat-box span {
+    font-size: 13px;
+    opacity: 0.8;
+  }
+  
+  /* RESPONSIVE */
+  @media (max-width: 900px) {
+    .about-container {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  
+    .about-title {
+      font-size: 34px;
+    }
+  
+    .about-stats {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  /* CARD WRAPPER */
+.about-card-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  /* BACK LAYERS */
+  .card-layer {
+    position: absolute;
+    inset: 0;
+    border-radius: 24px;
+    filter: blur(0.3px);
+  }
+  
+  .layer-1 {
+    background: linear-gradient(135deg, #0ea5e9, #6366f1);
+    opacity: 0.25;
+    transform: rotate(-6deg) translate(-20px, 10px);
+  }
+  
+  .layer-2 {
+    background: linear-gradient(135deg, #8b5cf6, #0ea5e9);
+    opacity: 0.18;
+    transform: rotate(6deg) translate(20px, -10px);
+  }
+  
+  /* MAIN CARD */
+  .main-card {
+    position: relative;
+    z-index: 2;
+    background: rgba(15, 23, 42, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 24px;
+    padding: 130px 30px;
+    text-align: center;
+    backdrop-filter: blur(18px);
+    box-shadow: 0 25px 80px rgba(0, 0, 0, 0.6);
+  }
+  
+  /* AVATAR */
+  .avatar {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #10a2e8, #8b5cf6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  /* TEXT */
+  .main-card h3 {
+    margin-bottom: 6px;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  
+  .main-card p {
+    font-size: 14px;
+    opacity: 0.75;
+  }
+  
+
+  /* .avatar img {
+    border-radius: 49px;
+} */
+ .avatar {
+  border: 3px solid rgba(255,255,255,0.15);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+.avatar img {
+  width: 100%;
+  height: 160%;
+  object-fit: cover;
+  object-position: center;
+}
+.avatar {
+  width: 140px;          /* circle size – increase/decrease as needed */
+  height: 140px;
+  border-radius: 50%;
+  overflow: hidden;     /* extra image hide karne ke liye */
+  display: flex;
+  align-items: flex-start; /* upar se image dikhane ke liye */
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.avatar img {
+  width: 100%;
+  height: 180%;         /* height zyada rakhi hai taaki half face dikhe */
+  object-fit: cover;
+  object-position: top; /* sirf upper part (half face) show karega */
+}

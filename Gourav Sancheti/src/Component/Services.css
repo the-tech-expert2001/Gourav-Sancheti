@@ -1,0 +1,118 @@
+.services-section {
+    background: radial-gradient(circle at top, #0b1220, #05080f);
+    padding: 100px 20px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .section-tag {
+    color: #3b82f6;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  .section-title {
+    font-size: 42px;
+    margin: 15px 0;
+    font-weight: 700;
+  }
+  
+  .section-title span {
+    display: inline-block;
+    background: linear-gradient(90deg, #10A2E8 0%, #5D46B3 50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+  
+  .section-desc {
+    max-width: 650px;
+    margin: 0 auto 60px;
+    color: #9ca3af;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+  }
+  
+  .service-card {
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.02)
+    );
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 30px;
+    text-align: left;
+    transition: 0.4s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(59, 130, 246, 0.6);
+  }
+  
+  .icon {
+    width: 48px;
+    height: 48px;
+    background: rgba(59, 130, 246, 0.15);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .service-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    color: #9ca3af;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .tags span {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 992px) {
+    .services-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .section-title {
+      font-size: 32px;
+    }
+  
+    .services-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

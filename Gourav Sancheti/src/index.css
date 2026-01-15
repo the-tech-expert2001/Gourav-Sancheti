@@ -1,0 +1,14 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+@import 'tailwindcss';
+
+
+
+/* .bg-red-600.text-white.p-10.text-3xl {
+  color: red;
+} */
+
+html {
+  scroll-behavior: smooth !important;
+}
