@@ -13,7 +13,7 @@ const About = () => {
 
           <div className="about-card main-card">
             <div className="avatar">
-              <span><img src="profile.jpeg" alt="" /></span>
+              <span><img src="/profile.jpeg" alt="" /></span>
             </div>
             <h3>Gourav Sancheti</h3>
             <p>Senior Software Engineer</p>
