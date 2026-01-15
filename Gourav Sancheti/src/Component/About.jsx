@@ -4,7 +4,7 @@ import "./About.css";
 const About = () => {
   return (
     <section className="about" id="About">
-      <div className="about-container">
+      <div className="about-container" data-aos="fade-up" >
         {/* LEFT CARD */}
         {/* LEFT STACKED CARD */}
         <div className="about-card-wrapper">

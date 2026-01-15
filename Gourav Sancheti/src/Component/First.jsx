@@ -3,7 +3,7 @@ import "./First.css";
 
 const First = () => {
   return (
-    <section className="hero" data-aos="fade-up">
+    <section className="hero" >
       {/* Availability badge */}
       <div className="badgee">
         <span className="dott"></span>
